@@ -7,8 +7,10 @@ import java.util.List;
  */
 public class Flower {
 
-   private List<Rose> roses;
-   private List<Chamomile> chamomiles;
+    private List<Rose> roses;
+    private List<Chamomile> chamomiles;
+    private List<Astra> astras;
+    private List<Tulip> tulips;
 
     public List<Rose> getRoses() {
         return roses;
@@ -42,6 +44,5 @@ public class Flower {
         this.tulips = tulips;
     }
 
-    private List<Astra> astras;
-   private List<Tulip> tulips;
+
 }
