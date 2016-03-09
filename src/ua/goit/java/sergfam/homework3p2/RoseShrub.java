@@ -7,7 +7,7 @@ import java.util.List;
  */
 public class RoseShrub {
 
-    List<Rose> roses;
+   private List<Rose> roses;
     Rose rose;
 
     public List<Rose> getRoses() {
