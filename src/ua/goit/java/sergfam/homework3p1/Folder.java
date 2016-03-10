@@ -7,15 +7,43 @@ import java.util.List;
  */
 public class Folder {
 
-    private List<File> files;
-    File file;
 
-    public List<File> getFiles() {
-        return files;
+    File file;
+    private List<Image> images;
+    private List<Audio> audios;
+    private List<Text> texts;
+
+    public File getFile() {
+        return file;
     }
 
-    public void setFiles(List<File> files) {
-        this.files = files;
+    public void setFile(File file) {
+        this.file = file;
+    }
+
+
+    public List<Image> getImages() {
+        return images;
+    }
+
+    public void setImages(List<Image> images) {
+        this.images = images;
+    }
+
+    public List<Audio> getAudios() {
+        return audios;
+    }
+
+    public void setAudios(List<Audio> audios) {
+        this.audios = audios;
+    }
+
+    public List<Text> getTexts() {
+        return texts;
+    }
+
+    public void setTexts(List<Text> texts) {
+        this.texts = texts;
     }
 
 

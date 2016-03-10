@@ -5,9 +5,9 @@ import java.util.List;
 /**
  * Created by Serg-fam on 09.03.2016 on 14:56.
  */
-public class RoseShrub {
+public class RoseShrub extends Flower {
 
-    Rose rose;
+
     private List<Rose> roses;
 
     public List<Rose> getRoses() {

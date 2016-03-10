@@ -7,42 +7,9 @@ import java.util.List;
  */
 public class Flower {
 
-    private List<Rose> roses;
-    private List<Chamomile> chamomiles;
-    private List<Astra> astras;
-    private List<Tulip> tulips;
-
-    public List<Rose> getRoses() {
-        return roses;
-    }
-
-    public void setRoses(List<Rose> roses) {
-        this.roses = roses;
-    }
-
-    public List<Chamomile> getChamomiles() {
-        return chamomiles;
-    }
-
-    public void setChamomiles(List<Chamomile> chamomiles) {
-        this.chamomiles = chamomiles;
-    }
-
-    public List<Astra> getAstras() {
-        return astras;
-    }
-
-    public void setAstras(List<Astra> astras) {
-        this.astras = astras;
-    }
-
-    public List<Tulip> getTulips() {
-        return tulips;
-    }
-
-    public void setTulips(List<Tulip> tulips) {
-        this.tulips = tulips;
-    }
-
-
+    Rose rose;
+    Astra astra;
+    Tulip tulip;
+    Chamomile chamomile;
+    RoseShrub roseShrub;
 }

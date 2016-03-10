@@ -7,6 +7,5 @@ import java.util.List;
  */
 public class Rose extends Flower {
 
-    List<Rose> roses;
-    Rose rose;
+
 }
