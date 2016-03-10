@@ -7,34 +7,14 @@ import java.util.List;
  */
 public class MusicalShop {
 
-    MusicalInstrument musicalInstrument;
-    private List<Guitar> guitars;
-    private List<Piano> pianos;
-    private List<Trumpet> trumpets;
 
-    public List<Guitar> getGuitars() {
-        return guitars;
+    private List<MusicalInstrument> musicalInstruments;
+
+    public List<MusicalInstrument> getMusicalInstruments() {
+        return musicalInstruments;
     }
 
-    public void setGuitars(List<Guitar> guitars) {
-        this.guitars = guitars;
+    public void setMusicalInstruments(List<MusicalInstrument> musicalInstruments) {
+        this.musicalInstruments = musicalInstruments;
     }
-
-    public List<Piano> getPianos() {
-        return pianos;
-    }
-
-    public void setPianos(List<Piano> pianos) {
-        this.pianos = pianos;
-    }
-
-    public List<Trumpet> getTrumpets() {
-        return trumpets;
-    }
-
-    public void setTrumpets(List<Trumpet> trumpets) {
-        this.trumpets = trumpets;
-    }
-
-
 }

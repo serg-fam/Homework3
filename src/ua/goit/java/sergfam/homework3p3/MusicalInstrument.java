@@ -7,8 +7,4 @@ import java.util.List;
  */
 public class MusicalInstrument {
 
-    Guitar guitar;
-    Piano piano;
-    Trumpet trumpet;
-
 }

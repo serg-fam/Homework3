@@ -17,6 +17,4 @@ public class RoseShrub extends Flower {
     public void setRoses(List<Rose> roses) {
         this.roses = roses;
     }
-
-
 }

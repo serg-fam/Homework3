@@ -7,9 +7,5 @@ import java.util.List;
  */
 public class Flower {
 
-    Rose rose;
-    Astra astra;
-    Tulip tulip;
-    Chamomile chamomile;
-    RoseShrub roseShrub;
+
 }
